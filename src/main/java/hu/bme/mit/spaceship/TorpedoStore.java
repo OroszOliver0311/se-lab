@@ -36,6 +36,7 @@ public class TorpedoStore {
     boolean success = false;
 
     // simulate random overheating of the launcher bay which prevents firing
+    // random number already existing so we can reuse it
     
     double r = this.random.nextDouble();
 
